@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pizzeria</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="main.js"></script>
+
+    <section id="home">
+        <center>
+            <button onclick="getmenu()" id="seemenu">Show Menu</button>
+            <div id="div_">
+                <h1 id="display_menu"></h1>
+            </div>
+        </center>
+    </section>
+    <section id="menu">
+
+        <div id="grid">
+            <div id="add">
+                <h2>Have a suggestion for menu? Write here!</h2>
+                <input id="menu_add" type="text" placeholder="Write a menu option..."><br><br>
+                <button id="button_add" onclick="add()">Add</button>
+
+            </div>
+            <div id="display_addedmenu"></div>
+        </div>
+    </section>
+</body></html>
