@@ -2,39 +2,42 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzeria</title>
     <link rel="stylesheet" href="style.css">
 
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <script src="main.js"></script>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#aboutus">About Us</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
 
-    <section id="home">
+    </ul>
+    <section id="main">
+
+        <h1 id="head">Pizzeria</h1>
+
+    </section>
+    <section id="aboutus">
         <center>
-            <button onclick="getmenu()" id="seemenu">Show Menu</button>
-            <div id="div_">
-                <h1 id="display_menu"></h1>
+            <h1 id="abtus">About Us</h1>
+            <div style="width:100px; height:5px; background-color: burlywood;">
+            </div><br>
+            <div style="background-color: lightgoldenrodyellow; color:black; height: 430px; width: 300px; border-radius: 50%; border:1.25px burlywood solid; padding-top:75px;">
+                <div style="word-wrap: break-word; height: 450px; width: 150px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</div>
             </div>
         </center>
     </section>
-    <section id="menu">
+    <script src="main.js"></script>
+</body>
 
-        <div id="grid">
-            <div id="add">
-                <h2>Have a suggestion for menu? Write here!</h2>
-                <input id="menu_add" type="text" placeholder="Write a menu option..."><br><br>
-                <button id="button_add" onclick="add()">Add</button>
-
-            </div>
-            <div id="display_addedmenu"></div>
-        </div>
-    </section>
-</body></html>
+</html>
